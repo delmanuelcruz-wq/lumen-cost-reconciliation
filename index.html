@@ -345,7 +345,8 @@ function App(){
   );
 }
 
-ReactDOM.render(React.createElement(App), document.getElementById('root'));
+var root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(React.createElement(App));
 
 </script>
 </body>
